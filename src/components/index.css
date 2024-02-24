@@ -4,9 +4,9 @@ body, html { font-family: sans-serif; height: 100%; }
 * { box-sizing: border-box; overflow: hidden; margin: 0; padding: 0; }
 
 :root {
-  --cor-button: #f0f0f0;
-  --border-button: solid 1px rgb(194, 194, 194);
-  --border-button-op: solid 1px rgb(0, 105, 209);
+  --cor-button: #7bcf75;
+  --border-button: solid 1px rgb(99, 150, 92);
+  --border-button-op: solid 1px rgb(66, 114, 60);
 }
 
 /* ------------- background ------------- */
@@ -18,12 +18,12 @@ body, html { font-family: sans-serif; height: 100%; }
   align-items: center; 
   justify-content: center; 
   text-align: center; 
-  color: #fff; 
-  background: linear-gradient(to left, #373b44, #4286f4);
+  color: #ffffff; 
+  background: linear-gradient(to left, #373b44, #16ad50);
 }
 
 /* ------------- titulo ------------- */
-h1 { font-size: 3rem; padding: 0 6px 20px; font-family: 'Pacifico', cursive; color: rgb(231, 231, 231); }
+h1 { font-size: 3rem; padding: 0 6px 20px; font-family: 'Pacifico', cursive; color: rgb(255, 255, 255); }
 
 
 /* ------------- corpo da calculadora ------------- */
@@ -43,7 +43,7 @@ h1 { font-size: 3rem; padding: 0 6px 20px; font-family: 'Pacifico', cursive; col
 /* ------------- display ------------- */
 .display {
   grid-column: span 4;
-  background-color: #0004;
+  background-color: rgba(0, 0, 0, 0.267);
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -56,7 +56,7 @@ h1 { font-size: 3rem; padding: 0 6px 20px; font-family: 'Pacifico', cursive; col
 .button {
   font-size: 1.4rem;
   background-color: var(--cor-button);
-  color: rgb(46, 46, 46);
+  color: rgb(255, 255, 255);
   border: none;
   border-right: var(--border-button);
   border-bottom: var(--border-button);
@@ -66,7 +66,7 @@ h1 { font-size: 3rem; padding: 0 6px 20px; font-family: 'Pacifico', cursive; col
 
 
 .button.op { 
-  background-color: dodgerblue; 
+  background-color: rgb(10, 113, 46); 
   color: white;   
   border-right: var(--border-button-op);
   border-bottom: var(--border-button-op);
